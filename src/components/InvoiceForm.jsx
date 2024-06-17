@@ -101,7 +101,7 @@ const InvoiceForm = () => {
           </div>
           <div className="flex items-center space-x-2">
             <label className="font-bold" htmlFor="invoiceNumber">
-              Invoice Number:
+              Invoice Numbers:
             </label>
             <input
               required
