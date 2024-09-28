@@ -9,6 +9,8 @@ const today = date.toLocaleDateString('en-GB', {
   day: 'numeric',
   year: 'numeric',
 });
+console.log(date);
+console.log(today);
 
 const InvoiceForm = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -144,7 +146,7 @@ const InvoiceForm = () => {
             required
             className="flex-1"
             placeholder="Customer name"
-            type="text"
+            type="Text"
             name="customerName"
             id="customerName"
             value={customerName}
